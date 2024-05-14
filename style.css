@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+nav {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.offer-section {
+    height: 760px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -60px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 370px;
+    background-color: #FDE24F;
+}
+
+.feature {
+    padding: 35px;
+}
+
+.horizontal-hr {
+    margin-top: 40px;
+    border-color: #000000;
+    width: 100%;
+}
+
+.main-buy-sell {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.txt {
+    height: 600px;
+    background-color: #CFBAFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+
+.footer {
+    height: 605px;
+    background-color: #000000;
+}
