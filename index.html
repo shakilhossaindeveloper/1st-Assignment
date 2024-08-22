@@ -3,174 +3,275 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello-Swaps</title>
+    <title>helloswaps</title>
     <link rel="stylesheet" href="style.css">
+    <!--font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!--font awesome cdn-->
+     
 </head>
 <body>
-    <!-- navbar -->
-    <nav>
-        <div class="navbar">
-            <div class="logo">
-                <img src="Logo.png" alt="">
-            </div>
-            <div class="link">
-                <a href="Buy"></a>
-                <a href="Sell "></a>
-                <a href="Create An Offer"></a>
-            </div>
-            <div class="login">
-                <button class="login">login
-                <button class="get-started">Get Started
-                </button>
-                <img src="Frame.png" alt="">
-            </div>
+    <!-- nav start -->
+    <nav class="nav">
+        <div>
+            <img src="/images/Logo.png" alt="logo">
+        </div>
+
+        <div>
+            <ul>
+                <li>Buy</li>
+                <li>Sell</li>
+                <li>Create an offer</li>
+            </ul>
+        </div>
+
+        <div class="right-side">
+            <ul>
+                <li>Login</li>
+            </ul>
+            <button class="nav-btn">Get started</button>
+            <i class="fa-solid fa-globe"></i>
+
         </div>
     </nav>
-    <!--find your offer section-->
-    <div class="offer-section">
-        <img src="Rectangle 1.png" alt="">
-        <div class="form-find">
-            <h1>Find your offer ✨</h1>
-            <form action="#">
-                <div>
-                    <select>
-                        <option value="">Country</option>
-                    </select>
-                    <select>
-                        <option value="">Buy</option>
-                    </select>
-                    <select>
-                        <option value="">Payment</option>
-                    </select>
-                    <select>
-                        <option value="">Currency</option>
-                    </select>
-                </div>
-                <div>
-                    <input type="text" placeholder="How much" readonly>
-                    <input  type="button" value="Find offer">
-                </div>
-            </form>
-        </div>
-    </div>
-</div>
-<button class="button-animate">Why zappr?</button>
-</div>
-<!--buy/sell icons-->
-<div class="icons">
-<h1>Buy/Sell the favorites with <span>No Fees*</span></h1>
-<img src="Frame 15.png" alt="Fram">
-</div>
-<!--features section-->
-<div class="feature">
-<h1>Features: We think about you</h1>
-<div class="feature-container">
-<div class="card">
-    <img src="SecureEscrow.png" alt="/SecureEscrow">
-    <h4>Secured by Escrow</h4> <hr>
-    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
-    <a href="#">Learn how our <span>Escrow works</span> </a>
-</div>
-<div class="card">
-    <img src="NewbieFriendly.png" alt="NewbieFriendly">
-    <h4>Newbie Friendly</h4> <hr>
-    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
-    <a href="#">We always keep you in mind, See More</a>
-</div>
-<div class="card">
-    <img src="MultiplePayments.png" alt="MultiplePayment">
-    <h4>120+ Payment Methods</h4>
-    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
-    <a href="#">Discover all Payment Methods</a>
-</div>
-</div>
-<button class="button-animate">See full features</button>
-</div>
-<hr class="horizontal-hr">
 
-<!--Buy sell section-->
-<div class="main-buy-sell">
+<!-- nav end -->
+
+<!-- hero section start-->
+<section class="hero-section">
+
+<div class="hero-section-div">
+    <h2>Find Your Offer</h2>
+   
+    <div class="div-up">
+        <div class="div-item"><p>Currency</p></div>
+        <div class="div-item"><p>Buy</p></div>
+        <div class="div-item"><p>Payment</p></div>
+        <div class="div-item"><p>Currency</p></div>
+    </div>
+    
+    <div>
+        <i class="fa-solid fa-angle-down currency-arrow1"></i>
+        <i class="fa-solid fa-angle-down buy-arow"></i>
+        <i class="fa-solid fa-angle-down payment-arrow"></i>
+        <i class="fa-solid fa-angle-down currency-arrow2"></i>
+    </div>
+  
+    <div class="div-down">
+        <input type="text" placeholder="How much">
+
+        <button class="div-down-btn">Find offer</button>
+    </div>
+    
+<div class="hero-link"><a href="">Why Zappr?</a></div>
+</div>
+</div>
+
+
+</section>
+
+<!-- hero section end-->
+
+
+
+<!-- Buy/Sell the favorites with No Fees  section start-->
+
+<section class="buy-sell">
+    <h2>Buy/Sell the favorites with <em>No Fees*</em> </h2>
+
+    <div class="frame">
+    <img src="./images/Frame 15.png" alt="Frame">
+</div>
+</section>
+
+
+<!-- Buy/Sell the favorites with No Fees section end -->
+
+
+
+<!-- Features: We think about you start -->
+
+
+<section class="feuture">
+  <h3>Features: We think about you</h3>  
+    <section class="feuture-2">
+ <div class="secured">
+    <img src="./images/SecureEscrow.png" alt="SecureEscrow">
+    <div><h2>Secured by Escrow</h2></div>
+    <div><p>Amet minim mollit non deserunt <br> ullamco est sit aliqua dolor do <br> amet sint.</p></div>
+
+    <div><a href="">Learn how our Escrow works</a></div>
+ </div>
+
+
+
+ <div class="newbie">
+    <img src="./images/NewbieFriendly.png" alt="NewbieFriendly">
+    <div ><h2>Newbie Friendly</h2></div>
+    <div><p>Amet minim mollit non deserunt <br> ullamco est sit aliqua dolor do <br> amet sint.</p></div>
+
+    <div><a href="">Learn how our Escrow works</a></div>
+ </div>
+
+
+ <div class="payment">
+    <img src="./images/MultiplePayments.png" alt="MultiplePayments">
+    <div ><h2>120+ Payment Methods</h2></div>
+    <div class="payment"><p>Amet minim mollit non deserunt <br> ullamco est sit aliqua dolor do <br> amet sint.</p></div>
+
+    <div><a href="">Discover all Payment Methods</a></div>
+ </div>
+
+
+
+</section>
+<div class="full-feature">
+    <p>See full features</p>
+    
+ <div class="hr1"></div>
+ <div class="hr2"></div>
+ </div>
+
+
+    </section>
+
+
+<!-- 
+Features: We think about you end -->
+
+
+
+
+
+<!-- buy sell section -->
+
+
+
+<section class="sell-buy">
+    <h3 class="hh3">Buy</h3>
 <div class="buy">
-    <h1>Buy</h1>
-    <div class="card-bs">
-        <img src="Component 1.png" alt="Component">
-        <p><span>Zelle, 1+</span><span>30,244.12 USD/BTC</span> <span>$10-200$</span></p>
-    </div>
-    <div class="card-bs">
-        <img src="Component 1 (1).png" alt="Component 1.1">
-        <p><span>Paypal, 1+</span><span>30,244.12 USD/BTC</span> <span>$10-200$</span></p>
-    </div>
-    <div class="card-bs">
-        <img src="blur.png" alt="blur">
-        <p><span>Wire, 1+</span><span>30,244.12 USD/BTC</span> <span>$10-200$</span></p>
-    </div>
-    <button class="button-animate">View buy's offers</button>
+<div class="componant">
+    <img src="./images/Component 1.png" alt="">
+  <p>Zelle, 1+</p>
+  <p>30,244.12 USD/BTC</p>
+  <p>$10-200$</p>
 </div>
-<hr class="vertical-hr">
-<div class="sell">
-    <h1>sell</h1>
-    <div class="card-bs">
-        <img src="Component 1 (1).png" alt="blur">
-        <p><span>Zelle, 1+</span><span>30,244.12 USD/BTC</span> <span>$10-200$</span></p>
-    </div>
-    <div class="card-bs">
-        <img src="blur.png" alt="blur">
-        <p><span>Paypal, 1+</span> <span>30,244.12 USD/BTC</span> <span>$10-200$</span></p>
-    </div>
-    <div class="card-bs">
-        <img src="Component 1.png" alt="Component 1.1">
-        <p><span>Wire, 1+ </span><span>30,244.12 USD/BTC</span> <span>$10-200$</span></p>
-    </div>
-    <button class="button-animate">View buy's offers</button>
+<div class="componant">
+    <img src="./images/Component 1 (1).png" alt="Component">
+  <p>Zelle, 1+</p>
+  <p>30,244.12 USD/BTC</p>
+  <p>$10-200$</p>
 </div>
-</div>
-<!--######-->
-<div class="txt">
-<p>Sign up and buy or sell crypto in 5 minutes with zero commission fees</p>
-<button class="button-animate">Get started</button>
-</div>
-<!--footer-->
-<div class="footer">
-<div class="footer-divide">
-<div>
-    <img src="spacio.png" alt="">
-</div>
-<div>
-    <h2>Product</h2>
-    <a href="#">Sell Bitcoin</a>
-    <a href="#">Buy Bitcoin</a>
-    <a href="#">Sell Ethereum</a>
-    <a href="#">Buy Ethereum</a>
-    <a href="#">Sell Solana</a>
-    <a href="#">Buy Solana</a>
-    <a href="#">Features</a>
-</div>
-<div>
-    <h2>About spacio</h2>
-    <a href="#">About Us</a>
-    <a href="#">Fees</a>
-    <a href="#">Careers</a>
-    <a href="#">Rewards Program</a>
-    <a href="#">Privacy Policy</a>
-    <a href="#">Terms & Conditions</a>
-</div>
-<div>
-    <h2>Support</h2>
-    <a href="#">Moderators</a>
-    <a href="#">Contact Support</a>
-    <a href="#">FAQ</a>
-    <a href="#">Help Center</a>
-    <a href="#">Comunity</a>
-    <a href="#">Security</a>
-</div>
-</div>
-<hr>
-<div class="copyright-text">
-    <p>“SPACI0” is a registered trademark of Logic0x, Ltd. Copyright © 2022 Logic0x, Ltd. All Rights Reserved. Paxful Inc. has no relation to MoneyGram, Western Union, Payoneer, WorldRemit, Paxum, Paypal, Amazon, OkPay, Payza, Walmart, Reloadit, Perfect Money, WebMoney, Google Wallet, BlueBird, Serve, Square Cash, NetSpend, Chase QuickPay, Skrill, Vanilla, MyVanilla, OneVanilla, Neteller, Venmo, Apple, ChimpChange or any other payment method. We make no claims about being supported by or supporting these services. Their respective wordmarks and trademarks belong to them alone. Official mailing address: 3422 Old Capitol Trail, PMB 989, Wilmington DE 19808</p>
+<div class="componant">
+    <img src="./images/blur.png" alt="blur">
+  <p>Zelle, 1+</p>
+  <p>30,244.12 USD/BTC</p>
+  <p>$10-200$</p>
 </div>
 
+<div class="div-btn"><button class="buy-btn">View buy’s offers</button></div>
+
 </div>
+
+
+
+
+
+
+
+
+
+<h3 class="hhh3">Sell</h3>
+
+<div class="sell">
+    <div class="componant-sell">
+        <img src="./images/Component 1 (1).png" alt="Component">
+      <p>Zelle, 1+</p>
+      <p>30,244.12 USD/BTC</p>
+      <p>$10-200$</p>
+    </div>
+    <div class="componant">
+        <img src="./images/blur.png" alt="Component">
+      <p>Zelle, 1+</p>
+      <p>30,244.12 USD/BTC</p>
+      <p>$10-200$</p>
+    </div>
+    <div class="componant">
+       <img src="./images/Component 1.png" alt="Component">
+      <p>Zelle, 1+</p>
+      <p>30,244.12 USD/BTC</p>
+      <p>$10-200$</p>
+    </div>
+    <div class="div-btn"><button class="buy-btn">View sell’s offers</button></div>
+    </div>
+    <div class="vh"></div>
+</section>
+
+
+
+
+<!-- buy sell section -->
+
+
+
+
+<section class="signup">
+    <div class="signup-div">
+        <h2>Sign up and buy or sell crypto in 5  <br> minutes with zero commission fees</h2>
+
+        <button class="btn">Get started</button>
+    </div>
+</section>
+
+
+
+<footer>
+    <section class="footer-up">
+   <div class="footer-item">
+    <h3>SPACIO</h3>
+   </div>
+
+ <div class="footer-item">
+    <h4>Product</h4>
+    <p>Sell Bitcoin</p>
+    <p>Buy Bitcoin</p>
+    <p>Sell Ethereum</p>
+    <p>Buy Ethereum</p>
+    <p>Sell Solana</p>
+    <p>Featuresa</p>
+ </div>
+
+
+
+ <div class="footer-item">
+    <h4>About spacio</h4>
+    <p>About Us</p>
+    <p>Fees</p>
+    <p>Careers</p>
+    <p>Rewards Program</p>
+    <p>Privacy Policy</p>
+    <p>Terms & Conditions</p>
+ </div>
+
+
+
+ <div class="footer-item">
+    <h4>Support</h4>
+    <p>Moderators</p>
+    <p>Contact Support</p>
+    <p>FAQ</p>
+    <p>Help Center</p>
+    <p>Comunity</p>
+    <p>Security</p>
+ </div>
+    </section>
+
+    <div class="footer-down">
+        <p>“SPACI0” is a registered trademark of Logic0x, Ltd. Copyright © 2022 Logic0x, Ltd. All Rights Reserved. Paxful Inc. has no relation to MoneyGram, Western Union, Payoneer, WorldRemit, Paxum, Paypal, Amazon, OkPay, Payza, <br> Walmart, Reloadit, Perfect Money, WebMoney, Google Wallet, BlueBird, Serve, Square Cash, NetSpend, Chase QuickPay, Skrill, Vanilla, MyVanilla, OneVanilla, Neteller, Venmo, Apple, ChimpChange or any other payment method. <br> We make no claims about being supported by or supporting these services. Their respective wordmarks and trademarks belong to them alone. Official mailing address: 3422 Old Capitol Trail, PMB 989, Wilmington DE 19808</p>
+    </div>
+</footer>
+
+
 
 </body>
 </html>
-
